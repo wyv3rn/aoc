@@ -1,3 +1,4 @@
+-- Day 1
 local tools = require("tools")
 
 local file = tools.open_puzzle_input(arg, false)

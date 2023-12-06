@@ -1,3 +1,4 @@
+-- Day 2
 local tools = require("tools")
 
 local BAG_CONTENT = {
