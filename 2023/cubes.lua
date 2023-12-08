@@ -56,7 +56,7 @@ local function set_power(bag_content)
     return power
 end
 
-local file = tools.open_puzzle_input(arg, false)
+local file = tools.open_puzzle_input(arg)
 local possible_id_sum = 0
 local power_sum = 0
 

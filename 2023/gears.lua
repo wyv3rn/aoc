@@ -1,7 +1,7 @@
 -- Day 3
 local tools = require("tools")
 
-local file = tools.open_puzzle_input(arg, false)
+local file = tools.open_puzzle_input(arg)
 
 local part_number_sum = 0
 

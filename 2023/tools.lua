@@ -1,6 +1,10 @@
 local M = {}
 
-function M.open_puzzle_input(arg, debug)
+function M.open_puzzle_input(arg)
+    local debug = false
+    if arg[1] == "debug" then
+        debug = true
+    end
     local filename = "input/" .. arg[0]:gsub("%.lua", "")
     if debug then
         filename = filename .. "-debug"
